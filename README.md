@@ -1,5 +1,5 @@
 # dot-common
-System-agnostic dotfiles
+Noah Hefner system-agnostic dotfiles
 
 # Usage
 

@@ -12,3 +12,4 @@ io.gitlab.librewolf-community
 com.github.tchx84.Flatseal
 com.makemkv.MakeMKV
 org.videolan.VLC
+org.signal.Signal
