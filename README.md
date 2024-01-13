@@ -84,6 +84,12 @@ Another way to move windows is to hold `super` and click / drag with the mouse.
 | Move to next buffer     | `space .`  |
 | Close current buffer    | `space c`  |
 
+### Markdown Preview
+
+| Action                  | Keybinding |
+|-------------------------|------------|
+| Toggle Markdown Preview | `ctrl+p`   |
+
 ## Ranger
 
 Ranger keybindings mimic Neovim for the most part. `h j k` and `l` can be used for navigation.
@@ -99,7 +105,7 @@ Ranger keybindings mimic Neovim for the most part. `h j k` and `l` can be used f
 # Scripts
 
 | Name | Action |
-|-|-|
+|------|--------|
 | `add_flathub_remote.sh` | adds flathub remote for flatpak
 | `dl_grub_theme.sh` | downloads GRUB theme
 | `install_cursors.sh` | downloads custom cursor pack

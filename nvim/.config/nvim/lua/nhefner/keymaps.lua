@@ -20,6 +20,9 @@ keymap("n", "<A-Down>", ":resize +2<CR>", opts)
 keymap("n", "<A-Left>", ":vertical resize +2<CR>", opts)
 keymap("n", "<A-Right>", ":vertical resize -2<CR>", opts)
 
+-- Markdown Preview
+keymap("n", "<C-p>", ":MarkdownPreviewToggle<CR>", opts)
+
 -- Nvim Tree
 keymap("n", "<leader>f", ":NvimTreeToggle<CR>", opts)
 
