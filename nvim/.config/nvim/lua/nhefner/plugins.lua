@@ -20,6 +20,7 @@ vim.api.nvim_exec(
 local use = require('packer').use
 require('packer').startup(function()
   use { 'wbthomason/packer.nvim' }
+  use { 'fatih/vim-go' }
   use { 'nvim-tree/nvim-web-devicons' } 
   use { 'lewis6991/gitsigns.nvim' }
   use { 'fladson/vim-kitty' }
