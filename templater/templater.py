@@ -1,7 +1,8 @@
 from __future__ import annotations
+
 import argparse
 from pathlib import Path
-from typing import Dict, Any
+from typing import Any, Dict
 
 from dotenv import dotenv_values
 from jinja2 import Environment, FileSystemLoader, Template

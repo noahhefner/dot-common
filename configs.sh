@@ -15,7 +15,7 @@ mkdir -p $HOME/.config/fuzzel/
 
 # greetd + regreet configs
 sudo cp ./config/greetd/config.toml /etc/greetd/config.toml
-sudo cp ./config/greetd/hyprland-config /etc/greetd/hyprland-config
+sudo cp ./config/greetd/hyprland.lua /etc/greetd/hyprland.lua
 sudo ./templater/.venv/bin/python ./templater/templater.py -t ./config/greetd/regreet.jinja.toml -e .env -o /etc/greetd/regreet.toml
 
 # hyprland

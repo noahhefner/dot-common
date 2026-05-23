@@ -64,7 +64,6 @@ Run `nwg-displays` (should appear as "Display Settings" in Fuzzel) and configure
 - [VLC](https://www.videolan.org/vlc/): Media player
 - [VSCodium](https://vscodium.com/d): VSCode without Miscroft spyware
 - [Waypaper](https://github.com/anufrievroman/waypaper): Wallpaper manager
-- [YouTube (Web App)](https://youtube.com): Videos
 
 ## Developer Tools
 

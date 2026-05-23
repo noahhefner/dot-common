@@ -1,5 +1,5 @@
 [background]
-path = "/usr/share/backgrounds/art002e009288orig.jpg"
+path = "/usr/share/backgrounds/bootsplash.jpg"
 # How the background image covers the screen if the aspect ratio doesn't match
 # Available values: "Fill", "Contain", "Cover", "ScaleDown"
 # Refer to: https://docs.gtk.org/gtk4/enum.ContentFit.html
