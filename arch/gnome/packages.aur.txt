@@ -1,0 +1,8 @@
+# Airdrop for linux
+localsend-bin
+
+# Chromium w/o Google spyware
+ungoogled-chromium-bin
+
+# VSCode w/o Microsoft spyware
+vscodium-bin

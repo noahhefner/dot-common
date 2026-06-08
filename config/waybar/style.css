@@ -1,0 +1,37 @@
+* {
+    font-family: "CaskaydiaCove Nerd Font", Roboto, Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: rgba(0,0,0,0.8);
+    color: rgba(255,255,255,0.85);
+}
+
+#workspaces {
+    background: transparent;
+    margin: 6px 0px 6px 8px;
+    padding: 2px;
+}
+
+#workspaces button {
+    all: initial;
+    min-width: 0;
+    color: rgba(255,255,255,0.85);
+    padding: 4px 4px;
+    margin: 0 6px;
+}
+
+#workspaces button.active {
+    box-shadow: inset 0px -2px white;
+}
+
+#bluetooth, #wireplumber, #network, #battery {
+    margin-right: 8px;
+}
+
+#custom-power {
+  margin-right: 16px;
+}

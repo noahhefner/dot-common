@@ -1,0 +1,148 @@
+# For transferring files to/from Android phone via USB
+android-file-transfer
+
+# Rendezvous / Bonjour protocol
+avahi
+
+# Build tools
+base-devel
+
+# System stats TUI
+btop
+
+# Printing
+cups
+cups-browsed
+cups-filters
+cups-pdf
+
+# Docker
+docker
+docker-buildx
+docker-compose
+
+# TUI system spec viewer
+fastfetch
+
+# Flatpak
+flatpak
+
+# Provides font information to apps
+fontconfig
+
+# Printer support libraries
+foomatic-db-engine
+foomatic-db-nonfree
+foomatic-db-nonfree-ppds
+foomatic-db-ppds
+
+# Fuzzy find
+fzf
+
+# Golang
+go
+
+# Static site generator
+hugo
+
+# Image utilities
+imagemagick
+
+# Collection of common network programs (ie. hostname)
+inetutils
+
+# Terminal
+kitty
+
+# TUI file pager
+less
+
+# Office Suite
+libreoffice-still
+
+# Man pages
+man-db
+
+# Text editor
+nano
+
+# Text editor
+neovim
+
+# Networking (supplies nmtui)
+networkmanager
+
+# Node
+nodejs
+
+# Google Noto Fonts + Emojis
+noto-fonts
+noto-fonts-emoji
+
+# Open Broadcaster Software (Screen Recordings)
+obs-studio
+
+# SSH utils
+openssh
+
+# Audio file metadata editor
+picard
+
+# Media Player controls
+playerctl
+
+# Performant NPM (Node Package Manager)
+pnpm
+
+# Python
+python
+
+# Python bindings for GLib/GObject/GIO/GTK
+python-gobject
+
+# QT libraries for Wayland
+qt5-wayland
+qt6-wayland
+
+# Search tool
+ripgrep
+
+# Signal client
+signal-desktop
+
+# Command summarizer
+tldr
+
+# Terminal multiplexer
+tmux
+
+# List files in terminal
+tree
+
+# Nerd font
+ttf-cascadia-code-nerd
+
+# Compression utility
+unzip
+
+# Python package manager
+uv
+
+# Media playback
+vlc
+vlc-plugin-ffmpeg
+
+# Tool for displaying info about Wayland compositor
+wayland-utils
+
+# For system update script
+wget
+
+# Domain / IP lookup utility
+whois
+
+# XDG
+xdg-utils
+
+# Better cd
+zoxide

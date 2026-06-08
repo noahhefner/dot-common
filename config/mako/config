@@ -1,0 +1,14 @@
+background-color=#000000
+text-color=#ffffff
+border-color=#3B82F6
+sort=-time
+font=CaskaydiaCove Nerd Font 12
+icons=1
+margin=4
+anchor=top-center
+border-size=4
+border-radius=3
+padding=12
+
+[urgency=high]
+border-color=#ff5555

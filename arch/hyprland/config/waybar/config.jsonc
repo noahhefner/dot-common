@@ -1,0 +1,95 @@
+[
+  {
+    "layer": "top",
+    "position": "top",
+    "spacing": 18,
+    "modules-left": [
+      "hyprland/workspaces"
+    ],
+    "modules-center": [
+      "clock"
+    ],
+    "modules-right": [
+      "bluetooth",
+      "wireplumber",
+      "network",
+      "battery",
+      "custom/power"
+    ],
+    "clock": {
+      "format": "{:%I:%M %p  %A, %B %d}",
+      "timezone": "America/New_York",
+      "tooltip": false
+    },
+    "bluetooth": {
+      "format": "",
+      "format-disabled": "󰂲",
+      "format-connected": "",
+      "tooltip-format": "Devices connected: {num_connections}",
+      "on-click": "blueman-manager"
+    },
+    "wireplumber": {
+      "format": "{volume}% {icon}",
+      "format-muted": "",
+      "format-icons": [
+        "",
+        "",
+        ""
+      ],
+      "on-click": "dotfiles-launch-pwvucontrol"
+    },
+    "network": {
+      "format-wifi": "{essid} {signalStrength}%  ",
+      "format-ethernet": "{ipaddr}/{cidr}",
+      "tooltip-format": "{ifname} via {gwaddr}",
+      "format-linked": "{ifname} (No IP)",
+      "format-disconnected": "Disconnected",
+      "on-click": "dotfiles-launch-nmtui"
+    },
+    "battery": {
+      "format": "{capacity}% {icon}",
+      "format-discharging": "{capacity}% {icon}",
+      "format-charging": "{capacity}% {icon}",
+      "format-plugged": "",
+      "format-icons": {
+        "charging": [
+          "󰢜",
+          "󰂆",
+          "󰂇",
+          "󰂈",
+          "󰢝",
+          "󰂉",
+          "󰢞",
+          "󰂊",
+          "󰂋",
+          "󰂅"
+        ],
+        "default": [
+          "󰁺",
+          "󰁻",
+          "󰁼",
+          "󰁽",
+          "󰁾",
+          "󰁿",
+          "󰂀",
+          "󰂁",
+          "󰂂",
+          "󰁹"
+        ]
+      },
+      "format-full": "󰂅",
+      "tooltip-format-discharging": "{power:>1.0f}W↓",
+      "tooltip-format-charging": "{power:>1.0f}W↑",
+      "interval": 5,
+      "states": {
+        "warning": 20,
+        "critical": 10
+      }
+    },
+    "custom/power": {
+        "on-click": "dotfiles-launch-powermenu",
+        "format": "⏻",
+        "tooltip-format": "Power Options"
+    }
+  }
+]

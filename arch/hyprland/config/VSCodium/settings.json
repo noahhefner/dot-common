@@ -1,0 +1,7 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.fontFamily": "'CaskaydiaCove Nerd Font', 'monospace', monospace",
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "editor.stickyScroll.enabled": false
+}
