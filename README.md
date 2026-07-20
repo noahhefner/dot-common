@@ -61,10 +61,6 @@ yay -S --noconfirm --needed "${packages[@]}"
 git clone --depth 1 https://github.com/AstroNvim/template $HOME/.config/nvim
 rm -rf $HOME/.config/nvim/.git
 
-# Kitty
-mkdir -p $HOME/.config/kitty
-cp $HOME/dotfiles/config/kitty/kitty.conf $HOME/.config/kitty/kitty.conf
-
 # oh-my-bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)" --unattended
 

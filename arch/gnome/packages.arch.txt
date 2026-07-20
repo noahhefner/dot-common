@@ -51,9 +51,6 @@ imagemagick
 # Collection of common network programs (ie. hostname)
 inetutils
 
-# Terminal
-kitty
-
 # TUI file pager
 less
 
