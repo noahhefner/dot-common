@@ -107,6 +107,9 @@ qt6-wayland
 # Search tool
 ripgrep
 
+# Transfer files via SSH
+rsync
+
 # Signal client
 signal-desktop
 
