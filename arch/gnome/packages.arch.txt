@@ -36,6 +36,9 @@ foomatic-db-nonfree
 foomatic-db-nonfree-ppds
 foomatic-db-ppds
 
+# Firmware updater
+fwupd
+
 # Fuzzy find
 fzf
 
